@@ -1,0 +1,6 @@
+Run the program doing ./main.exe <input> <output>. <input> and <output> are both optional parameters.
+<input> specifies the input file path from the current directory and <output> specifies the output file path.
+If there is an <input> but no <output>, the output file will just be <input>_edited.csv.
+If there is no <input> and no <output>, the input and output can be specified in config.py.
+Flags will be added to files/flags.txt
+Please make sure that config.csv, Identifiers.csv, and rules.csv are updated with the proper requirements before running the program
